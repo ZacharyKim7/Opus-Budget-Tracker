@@ -28,3 +28,7 @@ dist-ssr
 
 # Mock Data
 tempData
+
+.firebaserc
+firestore*
+firebase.json

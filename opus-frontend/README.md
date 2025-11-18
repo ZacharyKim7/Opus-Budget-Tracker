@@ -62,15 +62,20 @@ export default tseslint.config({
 ~/opus-frontend$ npm install -g firebase-tools
 ```
 
-2. Initialilze the emulator in the frontend directory; make sure you choose Authentication & Firestore.
+2. Connect with Google Firebase
+```
+~/opus-frontend$ firebase login
+```
+
+3. Initialilze the emulator in the frontend directory; make sure you choose Authentication & Firestore.
 
 ```
 ~/opus-frontend$ firebase init
 ```
 
-3. Make sure you configure the correct Firebase tools when prompted; this application uses Firestore and Auth.
+4. Make sure you configure the correct Firebase tools when prompted; this application uses Firestore and Auth.
 
-4. Start the Emulator:
+5. Start the Emulator:
 
 ```
 ~/opus-frontend$ firebase emulators:start
