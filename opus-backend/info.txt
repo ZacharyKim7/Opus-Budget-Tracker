@@ -1,3 +1,0 @@
-https://firebase.google.com/docs/emulator-suite/connect_auth#node.js-admin-sdk
-
-export FIREBASE_AUTH_EMULATOR_HOST="127.0.0.1:9099"
